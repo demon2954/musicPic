@@ -8,10 +8,9 @@ import java.io.File;
 import javax.imageio.ImageIO;
 
 import music.ui.MusicFrame;
-import music.ui.MusicPanel;
 
 /**
- * @auth zone
+ * @author zone
  * @date 2017-11-01
  */
 public class Main {
@@ -24,8 +23,6 @@ public class Main {
 	
 	private static void runUI() {
 		MusicFrame frame = new MusicFrame();
-		MusicPanel panel = new MusicPanel();
-		frame.add(panel);
 	}
 
 	public static void makePic(String[][] musicalNote, int type) throws Exception {
