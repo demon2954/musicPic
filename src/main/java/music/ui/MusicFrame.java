@@ -1,9 +1,13 @@
 package music.ui;
 
 import java.awt.Dimension;
+import java.awt.GridLayout;
 import java.awt.Toolkit;
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 
 /**
  * @author zone
@@ -17,14 +21,18 @@ public class MusicFrame extends JFrame {
 		double width = screenSize.getWidth();
 		int x = ((int) width - 480) / 2;
 		int y = ((int) height - 420) / 2;
+
+		this.setLayout(new GridLayout(2, 1));
+		MusicBtnPanel btnPanel = new MusicBtnPanel();
+		this.add(btnPanel);
 		
-		MusicPanel panel = new MusicPanel();
-		this.add(panel);
+		AreaManager areaManager = AreaManager.getManager();
+		JScrollPane jsp = new JScrollPane(areaManager.getArea());
+		this.add(jsp);
 		
-		this.setBounds(x, y, 420, 480);
+		this.setBounds(x, y, 420, 300);
 		this.setVisible(true);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		this.setLayout(null);
 		this.setResizable(false);
 	}
 }
