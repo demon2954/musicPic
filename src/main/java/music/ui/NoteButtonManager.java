@@ -22,31 +22,31 @@ public class NoteButtonManager {
 
 		int x = 0;
 		JButton note11 = new JButton("①");
-		note11.setBounds((x++) * size+5, 0, size, size);
+		note11.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note11);
 
 		JButton note12 = new JButton("②");
-		note12.setBounds((x++) * size+5, 0, size, size);
+		note12.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note12);
 
 		JButton note13 = new JButton("③");
-		note13.setBounds((x++) * size+5, 0, size, size);
+		note13.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note13);
 
 		JButton note14 = new JButton("④");
-		note14.setBounds((x++) * size+5, 0, size, size);
+		note14.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note14);
 
 		JButton note15 = new JButton("⑤");
-		note15.setBounds((x++) * size+5, 0, size, size);
+		note15.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note15);
 
 		JButton note16 = new JButton("⑥");
-		note16.setBounds((x++) * size+5, 0, size, size);
+		note16.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note16);
 
 		JButton note17 = new JButton("⑦");
-		note17.setBounds((x++) * size+5, 0, size, size);
+		note17.setBounds((x++) * size+5, size * 2, size, size);
 		noteButton.add(note17);
 
 		x = 0;
@@ -80,31 +80,31 @@ public class NoteButtonManager {
 
 		x = 0;
 		JButton note31 = new JButton("⒈");
-		note31.setBounds((x++) * size+5, size * 2, size, size);
+		note31.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note31);
 
 		JButton note32 = new JButton("⒉");
-		note32.setBounds((x++) * size+5, size * 2, size, size);
+		note32.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note32);
 
 		JButton note33 = new JButton("⒊");
-		note33.setBounds((x++) * size+5, size * 2, size, size);
+		note33.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note33);
 
 		JButton note34 = new JButton("⒋");
-		note34.setBounds((x++) * size+5, size * 2, size, size);
+		note34.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note34);
 
 		JButton note35 = new JButton("⒌");
-		note35.setBounds((x++) * size+5, size * 2, size, size);
+		note35.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note35);
 
 		JButton note36 = new JButton("⒍");
-		note36.setBounds((x++) * size+5, size * 2, size, size);
+		note36.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note36);
 
 		JButton note37 = new JButton("⒎");
-		note37.setBounds((x++) * size+5, size * 2, size, size);
+		note37.setBounds((x++) * size+5, 0, size, size);
 		noteButton.add(note37);
 		
 		JButton enter = new JButton("换行");
